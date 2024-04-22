@@ -1,0 +1,10 @@
+scripts:
+  # remote repo
+  list_branch_remote: git branch -a
+  list_remote_branch: git branch -r
+  vv_branch: git branch -vv
+  checkout_branch: git checkout feature-1
+  delete_branch: git branch -d feature-1
+  show_remote: git remote show origin
+  fetch: git fetch
+  prune: git remote prune origin
