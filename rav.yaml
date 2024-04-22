@@ -8,3 +8,4 @@ scripts:
   show_remote: git remote show origin
   fetch: git fetch
   prune: git remote prune origin
+  merge_remote: git merge FETCH_HEAD
